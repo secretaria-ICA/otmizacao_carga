@@ -38,6 +38,15 @@ Desta forma a matriz de correlação é formada pelo banco de dados e horário d
 A seguir será descrito cada intervalo de céclulas da planilha com sua respectiva função na modelagem. 
 
 ##2.1. Cromossomos
+Posição: B2:U10
+
+O intervalo possui valores de conteúdo binário que é usado como referência para composição da matriz de carga e é usado como entrada para o Solver como objeto de valores variáveis.
+O conjunto de variáveis deste intervalo respresenta um indivíduo dentro do esquema de modelagem. 
+
+##2.2. Dados Base
+Posição: A13: C22
+
+São os dados de valores fixos obtidos através de dados históricos das cargas que representam a mediana do tempo de carga de cada banco e a média de gasto computacional das mesmas.
 
 ### 3. Resultados
 
