@@ -44,9 +44,25 @@ O intervalo possui valores de conteúdo binário que é usado como referência p
 O conjunto de variáveis deste intervalo respresenta um indivíduo dentro do esquema de modelagem. 
 
 ##2.2. Dados Base
-Posição: A13: C22
+Posição: A13:C22
 
 São os dados de valores fixos obtidos através de dados históricos das cargas que representam a mediana do tempo de carga de cada banco e a média de gasto computacional das mesmas.
+
+##2.3. Blocos contiguos
+Posição: E13:E22
+
+Respresenta a quantidade de blocos contiguos de intervalos de tempo necessária para cada carga, levando em consideração blocos de 15 minutos neste estudo. 
+Esta quantidade será utilizada como base para uma das rerições do algorítimo, pois cada carga uma vez iniciada deve ser finalizada, não havendo lapsos de tempo ou pausas durante o processo. 
+
+##2.4 Peso de Hora
+Posição: A27:U27
+
+Indica o peso que cada horario possui. Os pesos aumentam linearmente de acordo com os intervalos de tempo e serão utilizados para a formação da função objetivo. 
+Quanto maior o horário do bloco de tempo maior seu peso dentro da função objetivo.
+
+##2.4 Peso de Hora
+Posição: A27:U27
+
 
 
 
