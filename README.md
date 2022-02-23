@@ -60,10 +60,18 @@ Posição: A27:U27
 Indica o peso que cada horario possui. Os pesos aumentam linearmente de acordo com os intervalos de tempo e serão utilizados para a formação da função objetivo. 
 Quanto maior o horário do bloco de tempo maior seu peso dentro da função objetivo.
 
-##2.4 Peso de Hora
-Posição: A27:U27
+##2.5 Limite de Fila
+Posição: A25
 
+Tamanho máximo da fila de recursos computacionais (cores de processamento do cluster) utilizada pelo processo de carga.
+Valor fixo, será utilizado em uma das funções de retrição para o algorítimo. 
 
+##2.6 Função Objetivo
+Posição: L41
+
+O Valor representa a função objetivo do algorítimo que será subetida ao processo de otimização - MINIMIZAÇÃO.
+É formada pela resultate do somatório da coluna "Peso de horário final", desta forma quanto mais tarde for o término da carga de um banco específico, respeitada todas as restrições, maior será seu peso no aumento de valor da função objetivo.
+Como o objetivo é de minimização a busca será sempre pelo menor peso/horário para término de cada processo de carga no algorítimo genético.
 
 
 ### 3. Resultados
