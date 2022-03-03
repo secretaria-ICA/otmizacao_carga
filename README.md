@@ -107,8 +107,23 @@ Possui dois blocos de células dispostos da seguinte maneira:
   Descrição: Verifica se o somatório dos recursos computacionais de cada banco de dados se encaixa na fila naquele instante de tempo. 
   
   Bloco2: V38
-  Fórmula: "=SE(E(B38:U38);1;0)"
+  Fórmula: "=SE(E(Bnl:Unl);1;0)"
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
+  
+#### 2.8 Restrição SOMA Cromossomo
+Posição: W29:V38
+
+Impede que um indivíduo tenha quantidade de cromossos nulos diferentes dos valores indicados para cada linha. Os valores não nulos devem ser iguais ao tempo total de carga dividido em blocos de 15 minutos, que por sua vez é igual a coluna de referêcia "Blocos contíguos" (E13)    
+Possui dois blocos de células dispostos da seguinte maneira: 
+
+  Bloco1: W29:W37
+  Fórmula: "=SE(SOMA(Bnl:Unl)=B14* E14;1;0)"
+  Descrição: Verifica se o somatório do valores da linha é igual a multiplicação da quantidade de recursos computacionais definido em B13 e a quantidade de blocos definida em     E13.
+  
+  Bloco2: W38
+  Fórmula: "=SE(E(W29:W37);1;0)"
+  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
+
 
 ### 3. Resultados
 
