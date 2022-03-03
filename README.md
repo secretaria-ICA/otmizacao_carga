@@ -97,10 +97,10 @@ Possui dois blocos de células dispostos da seguinte maneira: \
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO\
  
 #### 2.7 Restrição Total da fila no Horário
-Posição: B38:V38\
+Posição: B38:V38
 
 Verifica se o somatório de recursos computacionais em um determinado bloco de tempo é menor ou igual ao limte computacional da fila definido em B25
-Possui dois blocos de células dispostos da seguinte maneira: \
+Possui dois blocos de células dispostos da seguinte maneira:
 
   Bloco1: B38:U38\
   Fórmula: "=SE(SOMA(lc29:lc37)<=$B$25;1;0)"\
@@ -111,10 +111,10 @@ Possui dois blocos de células dispostos da seguinte maneira: \
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)\
   
 #### 2.8 Restrição SOMA Cromossomo
-Posição: W29:V38\
+Posição: W29:V38
 
 Impede que um indivíduo tenha quantidade de cromossos nulos diferentes dos valores indicados para cada linha. Os valores não nulos devem ser iguais ao tempo total de carga dividido em blocos de 15 minutos, que por sua vez é igual a coluna de referêcia "Blocos contíguos" (E13)    
-Possui três blocos de células dispostos da seguinte maneira: \
+Possui três blocos de células dispostos da seguinte maneira: 
 
   Bloco1: W29:W37.\
   Fórmula: "=SE(SOMA(Bnl:Unl)=B14* E14;1;0)"\
@@ -122,14 +122,14 @@ Possui três blocos de células dispostos da seguinte maneira: \
   
   Bloco2: V43:V51\
   Fórmula: "=SE(OU(Bnl:Unl);1;0)" onde nl -> 43..51\
-  Descrição: Verifica se existe pelo menos um valor testado para cada linha do blovo com com resultado VERDADEIRO. Isso indica que na referida linha existe um cadeia de           cromossomos que respeita a restrição bloco sem valor nulo.\
+  Descrição: Verifica se existe pelo menos um valor testado para cada linha do blovo com com resultado VERDADEIRO. Isso indica que na referida linha existe um cadeia de           cromossomos que respeita a restrição bloco sem valor nulo.
   
   Bloco3:V52\
   Fórmula: "=SE(E(V43:V51);1;0)"\
   Descrição: Verifica se todas as linhas do bloco2 possuem valor VERDADEIRO (1)
   
   
-#### 2.9 restricao blocos Contíguos
+#### 2.9 Restricao Blocos Contíguos
 
 Esta restrição foi implementada no modelo para garantir que toda carga ao ser iniciada seja finalizada sem interrupções, em outras palavavras para restringir indivíduos que possuam cromossomos de valor zero após ter um cromossomo de valor diferente de zero na linha da matriz principal.
 Possui dois blocos de células dispostos da seguinte maneira: 
