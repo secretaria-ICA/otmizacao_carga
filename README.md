@@ -37,36 +37,36 @@ A janela de carga foi disposta com em intervalos de 5 minutos para início de ca
 Desta forma a matriz de correlação é formada pelo banco de dados e horário de início de cada carga, sendo o valor da variável (célula) o gasto computacional para execução. 
 A seguir será descrito cada intervalo de céclulas da planilha com sua respectiva função na modelagem. 
 
-##2.1. Cromossomos
+#### 2.1. Cromossomos
 Posição: B2:U10
 
 O intervalo possui valores de conteúdo binário que é usado como referência para composição da matriz de carga e é usado como entrada para o Solver como objeto de valores variáveis.
 O conjunto de variáveis deste intervalo respresenta um indivíduo dentro do esquema de modelagem. 
 
-##2.2. Dados Base
+#### 2.2. Dados Base
 Posição: A13:C22
 
 São os dados de valores fixos obtidos através de dados históricos das cargas que representam a mediana do tempo de carga de cada banco e a média de gasto computacional das mesmas.
 
-##2.3. Blocos contiguos
+#### 2.3. Blocos contiguos
 Posição: E13:E22
 
 Respresenta a quantidade de blocos contiguos de intervalos de tempo necessária para cada carga, levando em consideração blocos de 15 minutos neste estudo. 
 Esta quantidade será utilizada como base para uma das rerições do algorítimo, pois cada carga uma vez iniciada deve ser finalizada, não havendo lapsos de tempo ou pausas durante o processo. 
 
-## 2.4 Peso de Hora
+#### 2.4 Peso de Hora
 Posição: A27:U27
 
 Indica o peso que cada horario possui. Os pesos aumentam linearmente de acordo com os intervalos de tempo e serão utilizados para a formação da função objetivo. 
 Quanto maior o horário do bloco de tempo maior seu peso dentro da função objetivo.
 
-## 2.5 Limite de Fila
+#### 2.5 Limite de Fila
 Posição: A25
 
 Tamanho máximo da fila de recursos computacionais (cores de processamento do cluster) utilizada pelo processo de carga.
 Valor fixo, será utilizado em uma das funções de retrição para o algorítimo. 
 
-## 2.6 Função Objetivo
+#### 2.6 Função Objetivo
 Posição: L41
 
 O Valor representa a função objetivo do algorítimo que será subetida ao processo de otimização - MINIMIZAÇÃO.
