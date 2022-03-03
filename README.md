@@ -123,6 +123,23 @@ Possui dois blocos de células dispostos da seguinte maneira:
   Bloco2: W38
   Fórmula: "=SE(E(W29:W37);1;0)"
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
+  
+  
+#### 2.9 restricao blocos Contíguos
+
+Esta restrição foi implementada no modelo para garantir que toda carga ao ser iniciada seja finalizada sem interrupções, em outras palavavras para restringir indivíduos que possuam cromossomos de valor zero após ter um cromossomo de valor diferente de zero na linha da matriz principal.
+Possui dois blocos de células dispostos da seguinte maneira: 
+
+  Bloco1: B43:U51 onde nl -> 43..51
+  Fórmula: "=SE(SOMA(DESLOC(Y;;;;$X))=$Z*$X;1;0)"
+  Descrição: A fórmula acima verifica se para cada célula, o somatório de seu valor com os valores de X células deslocadas a para direita é igual ao pruduto da quantidade de       recursos gastos por X, onde X é o valor de blocos de tempo calculado para cada banco baseado em intervalos de 15 minutos, Y a celula testada e Z o valor do recurso               computacional gasto pelo banco testado dentro do intervalo (B14:B22). 
+  
+  Ex: "=SE(SOMA(DESLOC(B29;;;;$E14))=$B14*$E14;1;0)"
+  
+  Bloco2: W38
+  Fórmula: "=SE(E(W29:W37);1;0)"
+  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
+
 
 
 ### 3. Resultados
