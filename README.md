@@ -114,15 +114,19 @@ Possui dois blocos de células dispostos da seguinte maneira:
 Posição: W29:V38
 
 Impede que um indivíduo tenha quantidade de cromossos nulos diferentes dos valores indicados para cada linha. Os valores não nulos devem ser iguais ao tempo total de carga dividido em blocos de 15 minutos, que por sua vez é igual a coluna de referêcia "Blocos contíguos" (E13)    
-Possui dois blocos de células dispostos da seguinte maneira: 
+Possui três blocos de células dispostos da seguinte maneira: 
 
-  Bloco1: W29:W37
+  Bloco1: W29:W37.
   Fórmula: "=SE(SOMA(Bnl:Unl)=B14* E14;1;0)"
   Descrição: Verifica se o somatório do valores da linha é igual a multiplicação da quantidade de recursos computacionais definido em B13 e a quantidade de blocos definida em     E13.
   
-  Bloco2: W38
-  Fórmula: "=SE(E(W29:W37);1;0)"
-  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
+  Bloco2: V43:V51.
+  Fórmula: "=SE(OU(Bnl:Unl);1;0)" onde nl -> 43..51.
+  Descrição: Verifica se existe pelo menos um valor testado para cada linha do blovo com com resultado VERDADEIRO. Isso indica que na referida linha existe um cadeia de           cromossomos que respeita a restrição bloco sem valor nulo.
+  
+  Bloco3:V52.
+  Fórmula: "=SE(E(V43:V51);1;0)".
+  Descrição: Verifica se todas as linhas do bloco2 possuem valor VERDADEIRO (1)
   
   
 #### 2.9 restricao blocos Contíguos
