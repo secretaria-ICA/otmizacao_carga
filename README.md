@@ -74,6 +74,8 @@ O Valor representa a função objetivo do algorítimo que será subetida ao proc
 Como o objetivo é de minimização a busca será sempre pelo menor peso/horário para término de cada processo de carga no algorítimo genético.
 
 
+
+
 ### 3. Resultados
 
 
