@@ -124,8 +124,8 @@ Possui três blocos de células dispostos da seguinte maneira:
   Fórmula: "=SE(OU(Bnl:Unl);1;0)" onde nl -> 43..51.
   Descrição: Verifica se existe pelo menos um valor testado para cada linha do blovo com com resultado VERDADEIRO. Isso indica que na referida linha existe um cadeia de           cromossomos que respeita a restrição bloco sem valor nulo.
   
-  Bloco3:V52.
-  Fórmula: "=SE(E(V43:V51);1;0)".
+  Bloco3:V52\
+  Fórmula: "=SE(E(V43:V51);1;0)"\
   Descrição: Verifica se todas as linhas do bloco2 possuem valor VERDADEIRO (1)
   
   
@@ -140,8 +140,8 @@ Possui dois blocos de células dispostos da seguinte maneira:
   
   Ex: "=SE(SOMA(DESLOC(B29;;;;$E14))=$B14*$E14;1;0)"
   
-  Bloco2: W38 [\n] 
-  Fórmula: "=SE(E(W29:W37);1;0)"
+  Bloco2: W38\
+  Fórmula: "=SE(E(W29:W37);1;0)"\
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
 
 
