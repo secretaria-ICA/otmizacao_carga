@@ -54,26 +54,35 @@ Posição: E13:E22
 Respresenta a quantidade de blocos contiguos de intervalos de tempo necessária para cada carga, levando em consideração blocos de 15 minutos neste estudo. 
 Esta quantidade será utilizada como base para uma das rerições do algorítimo, pois cada carga uma vez iniciada deve ser finalizada, não havendo lapsos de tempo ou pausas durante o processo. 
 
-##2.4 Peso de Hora
+## 2.4 Peso de Hora
 Posição: A27:U27
 
 Indica o peso que cada horario possui. Os pesos aumentam linearmente de acordo com os intervalos de tempo e serão utilizados para a formação da função objetivo. 
 Quanto maior o horário do bloco de tempo maior seu peso dentro da função objetivo.
 
-##2.5 Limite de Fila
+## 2.5 Limite de Fila
 Posição: A25
 
 Tamanho máximo da fila de recursos computacionais (cores de processamento do cluster) utilizada pelo processo de carga.
 Valor fixo, será utilizado em uma das funções de retrição para o algorítimo. 
 
-##2.6 Função Objetivo
+## 2.6 Função Objetivo
 Posição: L41
 
 O Valor representa a função objetivo do algorítimo que será subetida ao processo de otimização - MINIMIZAÇÃO.
 É formada pela resultate do somatório da coluna "Peso de horário final", desta forma quanto mais tarde for o término da carga de um banco específico, respeitada todas as restrições, maior será seu peso no aumento de valor da função objetivo.
 Como o objetivo é de minimização a busca será sempre pelo menor peso/horário para término de cada processo de carga no algorítimo genético.
 
+## Restrições: 
 
+As restrições foram modeladas de forma a permitir a menor entrada possível no Solver, direcionando o processamento de fórmulas para camada anterior. 
+Para melhor representação das fórmulas utilizadas na restrição será usada a seguinte simbologia: 
+
+"nl": Representa o número de linha com incremento crescente de uma unidade no intervalo.
+"lc": Representa a letra da coluna com incremento crescente de uma unidade no intervalo.
+
+
+## 2.7 
 
 
 ### 3. Resultados
