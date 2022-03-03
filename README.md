@@ -82,8 +82,22 @@ Para melhor representação das fórmulas utilizadas na restrição será usada 
 "lc": Representa a letra da coluna com incremento crescente de uma unidade no intervalo.
 
 
-## 2.7 
+#### 2.7 Restrição de obrigatoriedade de carga
+Posição: V2:V11
 
+Tem como objetivo garantir que todos os banco de dados sejam carregados. Evitando que o algoritimo gere algum indivíduo válido que contenha uma linha de cromossomo inteira com valores iguais a zero, ou seja, excluindo a carga de um determinado banco de dados. 
+Possui dois blocos de células dispostos da seguinte maneira: 
+
+  Bloco1: V2:V10
+  Fórmula: "=OU(Bnl:Unl)"
+  Descrição: Verifica a existencia de pelo menos um valor VERDADEIRO na linha 
+  
+  Bloco2: V11
+  Fórmula: "=SE(E(V2:V10);1;0)"
+  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO
+ 
+#### 2.7 Restrição de obrigatoriedade de carga
+Posição: V2:V11
 
 ### 3. Resultados
 
