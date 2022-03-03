@@ -140,7 +140,7 @@ Possui dois blocos de células dispostos da seguinte maneira:
   
   Ex: "=SE(SOMA(DESLOC(B29;;;;$E14))=$B14*$E14;1;0)"
   
-  Bloco2: W38
+  Bloco2: W38 [\n] 
   Fórmula: "=SE(E(W29:W37);1;0)"
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
 
