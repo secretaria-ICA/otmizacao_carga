@@ -76,53 +76,53 @@ Como o objetivo é de minimização a busca será sempre pelo menor peso/horári
 ## Restrições: 
 
 As restrições foram modeladas de forma a permitir a menor entrada possível no Solver, direcionando o processamento de fórmulas para camada anterior. 
-Para melhor representação das fórmulas utilizadas na restrição será usada a seguinte simbologia: 
+Para melhor representação das fórmulas utilizadas na restrição será usada a seguinte simbologia: \
 
-"nl": Representa o número de linha com incremento crescente de uma unidade no intervalo.
-"lc": Representa a letra da coluna com incremento crescente de uma unidade no intervalo.
+"nl": Representa o número de linha com incremento crescente de uma unidade no intervalo.\
+"lc": Representa a letra da coluna com incremento crescente de uma unidade no intervalo.\
 
 
 #### 2.7 Restrição de obrigatoriedade de carga
 Posição: V2:V11
 
 Tem como objetivo garantir que todos os banco de dados sejam carregados. Evitando que o algoritimo gere algum indivíduo válido que contenha uma linha de cromossomo inteira com valores iguais a zero, ou seja, excluindo a carga de um determinado banco de dados. 
-Possui dois blocos de células dispostos da seguinte maneira: 
+Possui dois blocos de células dispostos da seguinte maneira: \
 
-  Bloco1: V2:V10
-  Fórmula: "=OU(Bnl:Unl)"
-  Descrição: Verifica a existencia de pelo menos um valor VERDADEIRO na linha 
+  Bloco1: V2:V10\
+  Fórmula: "=OU(Bnl:Unl)"\
+  Descrição: Verifica a existencia de pelo menos um valor VERDADEIRO na linha\ 
   
-  Bloco2: V11
-  Fórmula: "=SE(E(V2:V10);1;0)"
-  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO
+  Bloco2: V11\
+  Fórmula: "=SE(E(V2:V10);1;0)"\
+  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO\
  
 #### 2.7 Restrição Total da fila no Horário
-Posição: B38:V38
+Posição: B38:V38\
 
 Verifica se o somatório de recursos computacionais em um determinado bloco de tempo é menor ou igual ao limte computacional da fila definido em B25
-Possui dois blocos de células dispostos da seguinte maneira: 
+Possui dois blocos de células dispostos da seguinte maneira: \
 
-  Bloco1: B38:U38
-  Fórmula: "=SE(SOMA(lc29:lc37)<=$B$25;1;0)"
-  Descrição: Verifica se o somatório dos recursos computacionais de cada banco de dados se encaixa na fila naquele instante de tempo. 
+  Bloco1: B38:U38\
+  Fórmula: "=SE(SOMA(lc29:lc37)<=$B$25;1;0)"\
+  Descrição: Verifica se o somatório dos recursos computacionais de cada banco de dados se encaixa na fila naquele instante de tempo. \
   
-  Bloco2: V38
-  Fórmula: "=SE(E(Bnl:Unl);1;0)"
-  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
+  Bloco2: V38\
+  Fórmula: "=SE(E(Bnl:Unl);1;0)"\
+  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)\
   
 #### 2.8 Restrição SOMA Cromossomo
-Posição: W29:V38
+Posição: W29:V38\
 
 Impede que um indivíduo tenha quantidade de cromossos nulos diferentes dos valores indicados para cada linha. Os valores não nulos devem ser iguais ao tempo total de carga dividido em blocos de 15 minutos, que por sua vez é igual a coluna de referêcia "Blocos contíguos" (E13)    
-Possui três blocos de células dispostos da seguinte maneira: 
+Possui três blocos de células dispostos da seguinte maneira: \
 
-  Bloco1: W29:W37.
-  Fórmula: "=SE(SOMA(Bnl:Unl)=B14* E14;1;0)"
+  Bloco1: W29:W37.\
+  Fórmula: "=SE(SOMA(Bnl:Unl)=B14* E14;1;0)"\
   Descrição: Verifica se o somatório do valores da linha é igual a multiplicação da quantidade de recursos computacionais definido em B13 e a quantidade de blocos definida em     E13.
   
-  Bloco2: V43:V51.
-  Fórmula: "=SE(OU(Bnl:Unl);1;0)" onde nl -> 43..51.
-  Descrição: Verifica se existe pelo menos um valor testado para cada linha do blovo com com resultado VERDADEIRO. Isso indica que na referida linha existe um cadeia de           cromossomos que respeita a restrição bloco sem valor nulo.
+  Bloco2: V43:V51\
+  Fórmula: "=SE(OU(Bnl:Unl);1;0)" onde nl -> 43..51\
+  Descrição: Verifica se existe pelo menos um valor testado para cada linha do blovo com com resultado VERDADEIRO. Isso indica que na referida linha existe um cadeia de           cromossomos que respeita a restrição bloco sem valor nulo.\
   
   Bloco3:V52\
   Fórmula: "=SE(E(V43:V51);1;0)"\
@@ -142,7 +142,7 @@ Possui dois blocos de células dispostos da seguinte maneira:
   
   Bloco2: W38\
   Fórmula: "=SE(E(W29:W37);1;0)"\
-  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
+  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)\
 
 
 
