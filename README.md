@@ -96,8 +96,19 @@ Possui dois blocos de células dispostos da seguinte maneira:
   Fórmula: "=SE(E(V2:V10);1;0)"
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO
  
-#### 2.7 Restrição de obrigatoriedade de carga
-Posição: V2:V11
+#### 2.7 Restrição Total da fila no Horário
+Posição: B38:V38
+
+Verifica se o somatório de recursos computacionais em um determinado bloco de tempo é menor ou igual ao limte computacional da fila definido em B25
+Possui dois blocos de células dispostos da seguinte maneira: 
+
+  Bloco1: B38:U38
+  Fórmula: "=SE(SOMA(lc29:lc37)<=$B$25;1;0)"
+  Descrição: Verifica se o somatório dos recursos computacionais de cada banco de dados se encaixa na fila naquele instante de tempo. 
+  
+  Bloco2: V38
+  Fórmula: "=SE(E(B38:U38);1;0)"
+  Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)
 
 ### 3. Resultados
 
