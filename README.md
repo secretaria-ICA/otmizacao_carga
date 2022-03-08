@@ -170,16 +170,10 @@ A primeira restrição define que cada cromossomo pode apenas assumir valores bi
 
 As demais restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
 
-  -> $V$11 = 1\n
-  -> $V$38 = 1\n
-  -> $V$52 = 1\n
-  -> $W$38 = 1\n
-
-
-
-
-
-
+  -> $V$11 = 1\
+  -> $V$38 = 1\
+  -> $V$52 = 1\
+  -> $W$38 = 1\
 
 
 ### 4. Conclusões
