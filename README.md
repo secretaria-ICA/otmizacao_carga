@@ -170,9 +170,9 @@ A primeira restrição define que cada cromossomo pode apenas assumir valores bi
 
 As demais restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
 
-  - $V$11 = 1 -> Restrição de obrigatoriedade de carga\
-  - $V$38 = 1 -> Restrição Total de limite de fila\
-  - $V$52 = 1 -> Restricao Blocos Contíguos\
+  - $V$11 = 1 -> Restrição de obrigatoriedade de carga
+  - $V$38 = 1 -> Restrição Total de limite de fila
+  - $V$52 = 1 -> Restricao Blocos Contíguos
   - $W$38 = 1 -> Restrição SOMA Cromossomo
 
 ![image](https://user-images.githubusercontent.com/66565707/157300694-0c64e5b9-729a-46e4-9c27-811de6ec6a0e.png)
