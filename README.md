@@ -148,10 +148,14 @@ Possui dois blocos de células dispostos da seguinte maneira:
 
 ### 3. Resultados
 
+O modelo foi deste trabalho foi processado utilizando a ferramenta "Solver"no Microsof Excel e o método "Evolutionary"
+O método utilizado 
+
 
 
 ### 4. Conclusões
 
+![image](https://user-images.githubusercontent.com/66565707/157300694-0c64e5b9-729a-46e4-9c27-811de6ec6a0e.png)
 
 
 Matrícula: 192110171
