@@ -96,7 +96,7 @@ Possui dois blocos de células dispostos da seguinte maneira: \
   Fórmula: "=SE(E(V2:V10);1;0)"\
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO\
  
-#### 2.7 Restrição Total da fila no Horário
+#### 2.8 Restrição Total de limite de fila
 Posição: B38:V38
 
 Verifica se o somatório de recursos computacionais em um determinado bloco de tempo é menor ou igual ao limte computacional da fila definido em B25
@@ -110,7 +110,7 @@ Possui dois blocos de células dispostos da seguinte maneira:
   Fórmula: "=SE(E(Bnl:Unl);1;0)"\
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)\
   
-#### 2.8 Restrição SOMA Cromossomo
+#### 2.9 Restrição SOMA Cromossomo
 Posição: W29:V38
 
 Impede que um indivíduo tenha quantidade de cromossos nulos diferentes dos valores indicados para cada linha. Os valores não nulos devem ser iguais ao tempo total de carga dividido em blocos de 15 minutos, que por sua vez é igual a coluna de referêcia "Blocos contíguos" (E13)    
@@ -129,7 +129,7 @@ Possui três blocos de células dispostos da seguinte maneira:
   Descrição: Verifica se todas as linhas do bloco2 possuem valor VERDADEIRO (1)
   
   
-#### 2.9 Restricao Blocos Contíguos
+#### 2.10 Restricao Blocos Contíguos
 
 Esta restrição foi implementada no modelo para garantir que toda carga ao ser iniciada seja finalizada sem interrupções, em outras palavavras para restringir indivíduos que possuam cromossomos de valor zero após ter um cromossomo de valor diferente de zero na linha da matriz principal.
 Possui dois blocos de células dispostos da seguinte maneira: 
@@ -166,19 +166,18 @@ Cromossomos que compões cada indivíduo gerado da população.
 
 A primeira restrição define que cada cromossomo pode apenas assumir valores binários, que por sua vez referenciam a matriz de consumo de recursos por tempo: 
 
-  -> $B$2:$U$10 = binário
+  - $B$2:$U$10 = binário
 
 As demais restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
 
-  -> $V$11 = 1\
-  -> $V$38 = 1\
-  -> $V$52 = 1\
-  -> $W$38 = 1\
-
-
-### 4. Conclusões
+  - $V$11 = 1 -> Restrição de obrigatoriedade de carga\
+  - $V$38 = 1 -> Restrição Total de limite de fila\
+  - $V$52 = 1 -> Restricao Blocos Contíguos\
+  - $W$38 = 1 -> Restrição SOMA Cromossomo
 
 ![image](https://user-images.githubusercontent.com/66565707/157300694-0c64e5b9-729a-46e4-9c27-811de6ec6a0e.png)
+
+### 4. Conclusões
 
 
 Matrícula: 192110171
