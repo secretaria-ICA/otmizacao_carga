@@ -149,9 +149,33 @@ Possui dois blocos de células dispostos da seguinte maneira:
 ### 3. Resultados
 
 O modelo foi deste trabalho foi processado utilizando a ferramenta "Solver" no Microsof Excel e o método "Evolutionary".
+
 O método utilizado é baseado na teoria da evolução das espécies, onde os indivíduos, mais fortes de uma população geram os indivíduos das popolações subsequentes, em outras palavaras, os valores mais promissores de um conjunto para alcançar o objetivo final são utilizados para gerar os valores do conjunto subsequente. 
+
 Cada população possui seu conjunto de indivíduos válidos e mais promissores de acordo com as restrições aplicadas da modelagem.
+
 Devido a geração e validação dos indivíduos de cada população ser realizada de forma individual, este método é mais lento que outros métodos do "Solver" porém possui mais eficácia na convergência para valores ótimos globais e menor taxa de parada e valores ótimos locais.
+
+#### 3.1 Configuração do Solver
+
+- Células Variáveis: $B$2:$U$10
+
+Cromossomos que compões cada indivíduo gerado da população.
+
+- Restrições: 
+
+A primeira restrição define que cada cromossomo pode apenas assumir valores binários, que por sua vez referenciam a matriz de consumo de recursos por tempo: 
+
+  -> $B$2:$U$10 = binário
+
+As demais restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
+
+  -> $V$11 = 1\n
+  -> $V$38 = 1\n
+  -> $V$52 = 1\n
+  -> $W$38 = 1\n
+
+
 
 
 
