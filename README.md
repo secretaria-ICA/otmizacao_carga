@@ -187,7 +187,7 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   
   Valor utilizado: 0,000001
     
--Taxa de Mutação:\
+- Taxa de Mutação:\
   Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
   
   Valor utilizado: 0,75
