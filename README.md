@@ -193,14 +193,14 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   Valor utilizado: 0,75
     
 - Tamanho da População:\
-  Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
+  Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
   
-  Valor utilizado: 10000   
+  Valor utilizado: 180  
     
 - Tempo Máximo sem aperfeiçoamento:\
   Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
   
-  Valor utilizado: 1000    
+  Valor utilizado: 600
   
   
 ### 4. Conclusões
