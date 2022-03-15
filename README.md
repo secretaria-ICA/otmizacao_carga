@@ -203,6 +203,21 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   Valor utilizado: 600
   
   
+ #### 3.3 Cenários e Resultados
+ 
+ - Cenário 1 
+
+O primieito cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
+
+Valor da Função Objetivo: 545\
+Horário de Finalização de todas as cargas: 04h30
+
+Tempo de otimização: 55 minutos\
+Valor da Função Objetivo: 410\
+Horário de Finalização de todas as cargas: 03h45
+
+
+
 ### 4. Conclusões
 
 
