@@ -216,6 +216,27 @@ Tempo de otimização: 55 minutos\
 Valor da Função Objetivo: 410\
 Horário de Finalização de todas as cargas: 03h45
 
+Após o processo de otimização foi realizada uma segunda rodada do algoritimo partindo do resultado ótimo da primeira rodada do cenário. Os seguintes resultados foram alcançados:
+
+Tempo de otimização: 32 minutos\
+Valor da Função Objetivo: 405\
+Horário de Finalização de todas as cargas: Não houve alteração.
+
+
+ - Cenário 2
+
+Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
+O mesmo indivíduo de entrada foi utilizado para o processo.
+A seguinte configuração foi realizada: 
+
+- aaa
+- bbb
+
+Os seguintes resultados foram alcançados: 
+
+- ccc
+- ddd
+-
 
 
 ### 4. Conclusões
