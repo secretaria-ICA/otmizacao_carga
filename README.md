@@ -195,12 +195,12 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
 - Tamanho da População:\
   Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
   
-  Valor utilizado: 200 
+  Valor utilizado: 10000
     
 - Tempo Máximo sem aperfeiçoamento:\
   Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
   
-  Valor utilizado: 600
+  Valor utilizado: 1000
   
   
  #### 3.3 Cenários e Resultados
@@ -209,20 +209,20 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
 
 O primieito cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
 
-Valor da Função Objetivo: 545\
+Valor da Função Objetivo: 550\
 Horário de Finalização de todas as cargas: 04h30
 ** Arquivo sem otimização
 
-Tempo de otimização: 55 minutos\
-Valor da Função Objetivo: 410\
-Horário de Finalização de todas as cargas: 03h45
+Tempo de otimização: 30 minutos\
+Valor da Função Objetivo: 430\
+Horário de Finalização de todas as cargas: 04h30
 ** Arquivo Otimizado
 
 Após o processo de otimização foi realizada uma segunda rodada do algoritimo partindo do resultado ótimo da primeira rodada do cenário. Os seguintes resultados foram alcançados:
 
-Tempo de otimização: 32 minutos\
-Valor da Função Objetivo: 405\
-Horário de Finalização de todas as cargas: Não houve alteração.
+Tempo de otimização: 30 minutos\
+Valor da Função Objetivo: 400
+Horário de Finalização de todas as cargas: 03h45.
 ** Arquivo otimziado 2 rodada
 
  - Cenário 2
