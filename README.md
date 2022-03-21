@@ -195,7 +195,7 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
 - Tamanho da População:\
   Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
   
-  Valor utilizado: 180  
+  Valor utilizado: 200 
     
 - Tempo Máximo sem aperfeiçoamento:\
   Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
@@ -211,21 +211,23 @@ O primieito cenário foi iniciado com um indivíduo válido da população e com
 
 Valor da Função Objetivo: 545\
 Horário de Finalização de todas as cargas: 04h30
+** Arquivo sem otimização
 
 Tempo de otimização: 55 minutos\
 Valor da Função Objetivo: 410\
 Horário de Finalização de todas as cargas: 03h45
+** Arquivo Otimizado
 
 Após o processo de otimização foi realizada uma segunda rodada do algoritimo partindo do resultado ótimo da primeira rodada do cenário. Os seguintes resultados foram alcançados:
 
 Tempo de otimização: 32 minutos\
 Valor da Função Objetivo: 405\
 Horário de Finalização de todas as cargas: Não houve alteração.
-
+** Arquivo otimziado 2 rodada
 
  - Cenário 2
 
-Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
+Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário 2 foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
 O mesmo indivíduo de entrada foi utilizado para o processo.
 A seguinte configuração foi realizada: 
 
