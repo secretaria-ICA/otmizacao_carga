@@ -215,15 +215,20 @@ Horário de Finalização de todas as cargas: 04h30
 
 Tempo de otimização: 30 minutos\
 Valor da Função Objetivo: 430\
-Horário de Finalização de todas as cargas: 04h30
+Horário de Finalização de todas as cargas: 04h30\
 ** Arquivo Otimizado
 
 Após o processo de otimização foi realizada uma segunda rodada do algoritimo partindo do resultado ótimo da primeira rodada do cenário. Os seguintes resultados foram alcançados:
 
 Tempo de otimização: 30 minutos\
-Valor da Função Objetivo: 400
-Horário de Finalização de todas as cargas: 03h45.
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
 ** Arquivo otimziado 2 rodada
+
+Tempo de otimização: 30 minutos\
+Valor da Função Objetivo: 375\
+Horário de Finalização de todas as cargas: 03h15.\
+** Arquivo otimziado 3 rodada
 
  - Cenário 2
 
