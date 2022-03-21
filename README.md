@@ -136,15 +136,23 @@ Possui dois blocos de células dispostos da seguinte maneira:
 
   Bloco1: B43:U51 onde nl -> 43..51\
   Fórmula: "=SE(SOMA(DESLOC(Y;;;;$X))=$Z*$X;1;0)"\
-  Descrição: A fórmula acima verifica se para cada célula, o somatório de seu valor com os valores de X células deslocadas a para direita é igual ao pruduto da quantidade de       recursos gastos por X, onde X é o valor de blocos de tempo calculado para cada banco baseado em intervalos de 15 minutos, Y a celula testada e Z o valor do recurso               computacional gasto pelo banco testado dentro do intervalo (B14:B22). 
+  Descrição: A fórmula acima verifica se para cada célula, o somatório de seu valor com os valores de X células deslocadas a para direita é igual ao pruduto da       quantidade de recursos gastos por X, onde X é o valor de blocos de tempo calculado para cada banco baseado em intervalos de 15 minutos, Y a celula testada e Z o valor do recurso computacional gasto pelo banco testado dentro do intervalo (B14:B22). 
   
   Ex: "=SE(SOMA(DESLOC(B29;;;;$E14))=$B14*$E14;1;0)"
   
   Bloco2: W38\
   Fórmula: "=SE(E(W29:W37);1;0)"\
   Descrição: Verifica se todas as linhas do bloco1 possuem valor VERDADEIRO (1)\
-
-
+  
+  #### 2.11 Restricao de Janela de Carga
+  
+  A restrição de janela indica qual horário máximo que as cargas devem estar todas finalizadas. 
+  Neste modelo as cargas podem iniciar a partir da 00:00 e finalizar até o limite de 04:30
+  
+  Bloco: B41
+  Fórmula: "=SE(SOMA(T29:U37)=0;1;0)"\
+  Descrição: Verifica se a soma dos valores presentes no intervalo onde não pode haver carga é igual a zero. Em caso de falso, indica que alguma carga ultrapassou o limite permitido da janela.
+.
 
 ### 3. Resultados
 
@@ -198,7 +206,7 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   Valor utilizado: 10000
     
 - Tempo Máximo sem aperfeiçoamento:\
-  Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
+  Este parâmetro indica o tempo máximo em segundos sem melhoria significativa nos indivíduos da população.
   
   Valor utilizado: 1000
   
@@ -207,15 +215,17 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
  
  - Cenário 1 
 
-O primieito cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
+O primeiro cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
 
 Valor da Função Objetivo: 550\
-Horário de Finalização de todas as cargas: 04h30
+Horário de Finalização de todas as cargas: 04h30\
+Modelo não otmizado com semente válida: 
 ** Arquivo sem otimização
 
 Tempo de otimização: 30 minutos\
 Valor da Função Objetivo: 430\
 Horário de Finalização de todas as cargas: 04h30\
+Modelo Otimizado - 1 interação: 
 ** Arquivo Otimizado
 
 Após o processo de otimização foi realizada uma segunda rodada do algoritimo partindo do resultado ótimo da primeira rodada do cenário. Os seguintes resultados foram alcançados:
@@ -223,12 +233,21 @@ Após o processo de otimização foi realizada uma segunda rodada do algoritimo 
 Tempo de otimização: 30 minutos\
 Valor da Função Objetivo: 400\
 Horário de Finalização de todas as cargas: 03h45.\
+Modelo Otimizado - 2 interações: 
 ** Arquivo otimziado 2 rodada
 
 Tempo de otimização: 30 minutos\
 Valor da Função Objetivo: 375\
 Horário de Finalização de todas as cargas: 03h15.\
+Modelo Otimizado - 3 interações: 
 ** Arquivo otimziado 3 rodada
+
+Tempo de otimização: 42 minutos\
+Valor da Função Objetivo: 355\
+Horário de Finalização de todas as cargas: 03h15.\
+Modelo Otimizado -  4 interações: 
+** Arquivo otimziado 4 rodada
+
 
  - Cenário 2
 
