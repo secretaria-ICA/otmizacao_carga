@@ -248,6 +248,12 @@ Horário de Finalização de todas as cargas: 03h15.\
 Modelo Otimizado -  4 interações: 
 ** Arquivo otimziado 4 rodada
 
+![image](https://user-images.githubusercontent.com/66565707/159574388-afd18288-3b2b-4b0c-b01c-69bc2aa12be2.png)
+
+
+Após este ponto não aconteceu otimização do modelo, sendo 4 interações o número necessário para alcance do ótimo global neste cenário.
+
+
 
  - Cenário 2
 
