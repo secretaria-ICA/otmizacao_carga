@@ -265,7 +265,7 @@ A primeira observação foi que o tempo de otimização não alterou sigficativa
 Os seguintes resultados foram observados após as interações: 
 
 - Interação 1
-Valor da Função Objetivo: 490
+Valor da Função Objetivo: 490\
 Horário de Finalização de todas as cargas: 04h30.
 
 - Interação 2
