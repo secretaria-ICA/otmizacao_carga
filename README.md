@@ -259,16 +259,45 @@ Após este ponto não aconteceu otimização do modelo, sendo 4 interações o n
 
 Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário 2 foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
 O mesmo indivíduo de entrada foi utilizado para o processo.
-Os  
 
-- aaa
-- bbb
+Apenas o parâmetro de converência foi alterado passando de iniciais 0,000001 para 0,01. O incremento como citado tem a intenção de tentar dimunuir o tempo necessário de otimização. 
 
-Os seguintes resultados foram alcançados: 
+A primeira observação foi que o tempo de otimização não alterou sigficativamente, tendo média de aproximadamente 20 minutos para cada interação. 
 
-- ccc
-- ddd
--
+Os seguintes resultados foram observados após as interações: 
+
+- Interação 1
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
+- Interação 2
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
+- Interação 3
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
+- Interação 4
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
+- Interação 5
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
+- Interação 6
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
+- Interação 7
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
+- Interação 8
+Valor da Função Objetivo: 400\
+Horário de Finalização de todas as cargas: 03h45.\
+
 
 
 ### 4. Conclusões
