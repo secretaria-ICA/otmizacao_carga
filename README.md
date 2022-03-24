@@ -267,36 +267,42 @@ A primeira observação foi que o tempo de otimização não alterou sigficativa
 Os seguintes resultados foram observados após as interações: 
 
 - Interação 1
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 490
+Horário de Finalização de todas as cargas: 04h30.
 
 - Interação 2
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 460
+Horário de Finalização de todas as cargas: 04h00
 
 - Interação 3
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 435
+Horário de Finalização de todas as cargas: 03h45.
 
 - Interação 4
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 430
+Horário de Finalização de todas as cargas: 03h45.
 
 - Interação 5
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 425
+Horário de Finalização de todas as cargas: 03h45.
 
 - Interação 6
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 405
+Horário de Finalização de todas as cargas: 03h30.
 
 - Interação 7
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 400
+Horário de Finalização de todas as cargas: 03h30.
 
 - Interação 8
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
+Valor da Função Objetivo: 395
+Horário de Finalização de todas as cargas: 03h30.
+
+- Interação 9
+Valor da Função Objetivo: 385
+Horário de Finalização de todas as cargas: 03h30.
+
+![image](https://user-images.githubusercontent.com/66565707/160000232-3021244b-6eb3-41cf-ae54-53ab6fd5f7e9.png)
 
 
 
