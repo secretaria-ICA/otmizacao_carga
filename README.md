@@ -251,9 +251,7 @@ Modelo Otimizado -  4 interações:
 ![image](https://user-images.githubusercontent.com/66565707/159718924-b82d6cf3-805f-4dc8-a54e-9d625c2026d1.png)
 
 
-Após este ponto não aconteceu otimização do modelo, sendo 4 interações o número necessário para alcance do ótimo global neste cenário.
-
-
+Após este ponto não aconteceu otimização do modelo.
 
  - Cenário 2
 
@@ -315,9 +313,7 @@ Horário de Finalização de todas as cargas: 03h30.
 [Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 8.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344984/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.8.xlsx)
 
 
-![image](https://user-images.githubusercontent.com/66565707/160000649-9cc87cbe-a0e7-407a-8b89-4f918f482090.png)
-
-
+![image](https://user-images.githubusercontent.com/66565707/160002021-f3f675b9-0d51-456f-8098-e54ce519e440.png)
 
 ### 4. Conclusões
 
