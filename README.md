@@ -271,38 +271,51 @@ Valor da Função Objetivo: 490
 Horário de Finalização de todas as cargas: 04h30.
 
 - Interação 2
-Valor da Função Objetivo: 460
+Valor da Função Objetivo: 460\
 Horário de Finalização de todas as cargas: 04h00
 
 - Interação 3
-Valor da Função Objetivo: 435
+Valor da Função Objetivo: 435\
 Horário de Finalização de todas as cargas: 03h45.
 
 - Interação 4
-Valor da Função Objetivo: 430
+Valor da Função Objetivo: 430\
 Horário de Finalização de todas as cargas: 03h45.
 
 - Interação 5
-Valor da Função Objetivo: 425
+Valor da Função Objetivo: 425\
 Horário de Finalização de todas as cargas: 03h45.
 
 - Interação 6
-Valor da Função Objetivo: 405
+Valor da Função Objetivo: 405\
 Horário de Finalização de todas as cargas: 03h30.
 
 - Interação 7
-Valor da Função Objetivo: 400
+Valor da Função Objetivo: 400\
 Horário de Finalização de todas as cargas: 03h30.
 
 - Interação 8
-Valor da Função Objetivo: 395
+Valor da Função Objetivo: 395\
 Horário de Finalização de todas as cargas: 03h30.
 
 - Interação 9
-Valor da Função Objetivo: 385
+Valor da Função Objetivo: 385\
 Horário de Finalização de todas as cargas: 03h30.
 
-![image](https://user-images.githubusercontent.com/66565707/160000232-3021244b-6eb3-41cf-ae54-53ab6fd5f7e9.png)
+-- Arquivos de otimizações: 
+
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344976/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.1.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 9.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344985/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.9.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344978/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.2.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344979/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.3.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344980/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.4.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 5.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344981/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.5.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 6.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344982/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.6.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 7.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344983/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.7.xlsx)
+[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 8.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344984/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.8.xlsx)
+
+
+![image](https://user-images.githubusercontent.com/66565707/160000649-9cc87cbe-a0e7-407a-8b89-4f918f482090.png)
 
 
 
