@@ -196,7 +196,7 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   Valor utilizado: 0,000001
     
 - Taxa de Mutação:\
-  Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1, como o objetivo é chegar o mais próximo possível do ótimo     global foi atribuído um valor mais próximo de 1, mesmo que isso aumente o tempo total de execução.
+  Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1, como o objetivo é chegar o mais próximo possível do ótimo global foi atribuído um valor mais próximo de 1, mesmo que isso aumente o tempo total de execução.
   
   Valor utilizado: 0,75
     
@@ -248,8 +248,7 @@ Horário de Finalização de todas as cargas: 03h15.\
 Modelo Otimizado -  4 interações: 
 ** Arquivo otimziado 4 rodada
 
-![image](https://user-images.githubusercontent.com/66565707/159574971-e9df6005-7f69-41b5-b4cd-dbc1354295b3.png)
-
+![image](https://user-images.githubusercontent.com/66565707/159718924-b82d6cf3-805f-4dc8-a54e-9d625c2026d1.png)
 
 
 Após este ponto não aconteceu otimização do modelo, sendo 4 interações o número necessário para alcance do ótimo global neste cenário.
@@ -260,7 +259,7 @@ Após este ponto não aconteceu otimização do modelo, sendo 4 interações o n
 
 Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário 2 foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
 O mesmo indivíduo de entrada foi utilizado para o processo.
-A seguinte configuração foi realizada: 
+Os  
 
 - aaa
 - bbb
