@@ -213,39 +213,27 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
 
 O primeiro cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
 
+- Ponto de partida:[Cenario1_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351768/Cenario1_sem_Otimizacao.xlsx)\
 Valor da Função Objetivo: 550\
-Horário de Finalização de todas as cargas: 04h30\
-Modelo não otmizado com semente válida: 
-** Arquivo sem otimização
+Horário de Finalização de todas as cargas: 04:30
 
-Tempo de otimização: 30 minutos\
+- Interação 1:[Cenario1 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351769/Cenario1.-.Otimizacao.1.xlsx)\
 Valor da Função Objetivo: 430\
-Horário de Finalização de todas as cargas: 04h30\
-Modelo Otimizado - 1 interação: 
-** Arquivo Otimizado
+Horário de Finalização de todas as cargas: 04:30.
 
-Após o processo de otimização foi realizada uma segunda rodada do algoritimo partindo do resultado ótimo da primeira rodada do cenário. Os seguintes resultados foram alcançados:
-
-Tempo de otimização: 30 minutos\
+- Interação 2: [Cenario1 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351771/Cenario1.-.Otimizacao.2.xlsx)\
 Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h45.\
-Modelo Otimizado - 2 interações: 
-** Arquivo otimziado 2 rodada
+Horário de Finalização de todas as cargas: 03:45.
 
-Tempo de otimização: 30 minutos\
+- Interação 3:[Cenario1 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351774/Cenario1.-.Otimizacao.3.xlsx)\
 Valor da Função Objetivo: 375\
-Horário de Finalização de todas as cargas: 03h15.\
-Modelo Otimizado - 3 interações: 
-** Arquivo otimziado 3 rodada
+Horário de Finalização de todas as cargas: 03:15.
 
-Tempo de otimização: 42 minutos\
+- Interação 4:[Cenario1 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351775/Cenario1.-.Otimizacao.4.xlsx)\
 Valor da Função Objetivo: 355\
-Horário de Finalização de todas as cargas: 03h15.\
-Modelo Otimizado -  4 interações: 
-** Arquivo otimziado 4 rodada
+Horário de Finalização de todas as cargas: 03:15.
 
 ![image](https://user-images.githubusercontent.com/66565707/160136232-432c4b09-8e31-49ce-ab35-7f56ced0fc6c.png)
-
 
 Após este ponto não aconteceu otimização do modelo.
 
