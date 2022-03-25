@@ -250,43 +250,43 @@ Os seguintes resultados foram observados após as interações:
 
 - Ponto de partida: [Cenario2_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351315/Cenario2_sem_Otimizacao.xlsx)\
 Valor da Função Objetivo: 550\
-Horário de Finalização de todas as cargas: 04h30
+Horário de Finalização de todas as cargas: 04:30
 
 - Interação 1: [Cenario2 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351323/Cenario2.-.Otimizacao.1.xlsx)\
 Valor da Função Objetivo: 490\
-Horário de Finalização de todas as cargas: 04h30.
+Horário de Finalização de todas as cargas: 04:30.
 
 - Interação 2: [Cenario2 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351600/Cenario2.-.Otimizacao.2.xlsx)\
 Valor da Função Objetivo: 460\
-Horário de Finalização de todas as cargas: 04h00
+Horário de Finalização de todas as cargas: 04:00
 
 - Interação 3: [Cenario2 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351603/Cenario2.-.Otimizacao.3.xlsx)\
 Valor da Função Objetivo: 435\
-Horário de Finalização de todas as cargas: 03h45.
+Horário de Finalização de todas as cargas: 03:45.
 
 - Interação 4: [Cenario2 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351605/Cenario2.-.Otimizacao.4.xlsx)\
 Valor da Função Objetivo: 430\
-Horário de Finalização de todas as cargas: 03h45.
+Horário de Finalização de todas as cargas: 03:45.
 
 - Interação 5: [Cenario2 - Otimizacao 5.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351619/Cenario2.-.Otimizacao.5.xlsx)\
 Valor da Função Objetivo: 425\
-Horário de Finalização de todas as cargas: 03h45.
+Horário de Finalização de todas as cargas: 03:45.
 
 - Interação 6: [Cenario2 - Otimizacao 6.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351621/Cenario2.-.Otimizacao.6.xlsx)\
 Valor da Função Objetivo: 405\
-Horário de Finalização de todas as cargas: 03h30.
+Horário de Finalização de todas as cargas: 03:30.
 
 - Interação 7: [Cenario2 - Otimizacao 7.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351626/Cenario2.-.Otimizacao.7.xlsx)\
 Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03h30.
+Horário de Finalização de todas as cargas: 03:30.
 
 - Interação 8: [Cenario2 - Otimizacao 8.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351628/Cenario2.-.Otimizacao.8.xlsx)\
 Valor da Função Objetivo: 395\
-Horário de Finalização de todas as cargas: 03h30.
+Horário de Finalização de todas as cargas: 03:30.
 
 - Interação 9: [Cenario2 - Otimizacao 9.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351629/Cenario2.-.Otimizacao.9.xlsx)\
 Valor da Função Objetivo: 385\
-Horário de Finalização de todas as cargas: 03h30.
+Horário de Finalização de todas as cargas: 03:30.
 
 ![image](https://user-images.githubusercontent.com/66565707/160002021-f3f675b9-0d51-456f-8098-e54ce519e440.png)
 
