@@ -183,7 +183,6 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   - $V$52 = 1 -> Restricao Blocos Contíguos
   - $W$38 = 1 -> Restrição SOMA Cromossomo
 
-![image](https://user-images.githubusercontent.com/66565707/157300694-0c64e5b9-729a-46e4-9c27-811de6ec6a0e.png)
 
 #### 3.2 Parâmetros para o método Evolutionary: 
 
@@ -210,7 +209,7 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   
  #### 3.3 Cenários e Resultados
  
- - Cenário 1 
+ ##### Cenário 1 
 
 O primeiro cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
 
@@ -250,7 +249,7 @@ Modelo Otimizado -  4 interações:
 
 Após este ponto não aconteceu otimização do modelo.
 
- - Cenário 2
+##### Cenário 2
 
 Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário 2 foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
 O mesmo indivíduo de entrada foi utilizado para o processo.
