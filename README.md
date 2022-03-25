@@ -209,7 +209,7 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
   
  #### 3.3 Cenários e Resultados
  
- ##### Cenário 1 
+ #### Cenário 1 
 
 O primeiro cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
 
@@ -249,7 +249,7 @@ Modelo Otimizado -  4 interações:
 
 Após este ponto não aconteceu otimização do modelo.
 
-##### Cenário 2
+#### Cenário 2
 
 Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário 2 foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
 O mesmo indivíduo de entrada foi utilizado para o processo.
