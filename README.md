@@ -179,14 +179,11 @@ A primeira restrição define que cada cromossomo pode apenas assumir valores bi
 As demais restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
 
   - $V$11 = 1 -> Restrição de obrigatoriedade de carga
-  - $V$38 = 1 -> Restrição Total de limite de fi0,000001
-  
-  la
+  - $V$38 = 1 -> Restrição Total de limite de fila
   - $V$52 = 1 -> Restricao Blocos Contíguos
   - $W$38 = 1 -> Restrição SOMA Cromossomo
 
 ![image](https://user-images.githubusercontent.com/66565707/157300694-0c64e5b9-729a-46e4-9c27-811de6ec6a0e.png)
-
 
 #### 3.2 Parâmetros para o método Evolutionary: 
 
@@ -264,7 +261,11 @@ A primeira observação foi que o tempo de otimização não alterou sigficativa
 
 Os seguintes resultados foram observados após as interações: 
 
-- Interação 1
+- Ponto de partida: [Cenario2_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351315/Cenario2_sem_Otimizacao.xlsx)
+Valor da Função Objetivo: 550\
+Horário de Finalização de todas as cargas: 04h30
+
+- Interação 1 : [Cenario2 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351323/Cenario2.-.Otimizacao.1.xlsx)
 Valor da Função Objetivo: 490\
 Horário de Finalização de todas as cargas: 04h30.
 
@@ -302,16 +303,15 @@ Horário de Finalização de todas as cargas: 03h30.
 
 -- Arquivos de otimizações: 
 
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344976/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.1.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 9.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344985/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.9.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344978/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.2.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344979/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.3.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344980/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.4.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 5.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344981/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.5.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 6.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344982/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.6.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 7.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344983/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.7.xlsx)
-[Exemplo de modelagem (version 9) - 180 Variaveis - Cenario2 - Otimizacao 8.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8344984/Exemplo.de.modelagem.version.9.-.180.Variaveis.-.Cenario2.-.Otimizacao.8.xlsx)
-
+[Cenario2 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351292/Cenario2.-.Otimizacao.1.xlsx)
+[Cenario2 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351293/Cenario2.-.Otimizacao.2.xlsx)
+[Cenario2 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351294/Cenario2.-.Otimizacao.3.xlsx)
+[Cenario2 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351295/Cenario2.-.Otimizacao.4.xlsx)
+[Cenario2 - Otimizacao 5.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351296/Cenario2.-.Otimizacao.5.xlsx)
+[Cenario2 - Otimizacao 6.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351297/Cenario2.-.Otimizacao.6.xlsx)
+[Cenario2 - Otimizacao 7.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351298/Cenario2.-.Otimizacao.7.xlsx)
+[Cenario2 - Otimizacao 8.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351299/Cenario2.-.Otimizacao.8.xlsx)
+[Cenario2 - Otimizacao 9.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351300/Cenario2.-.Otimizacao.9.xlsx)
 
 ![image](https://user-images.githubusercontent.com/66565707/160002021-f3f675b9-0d51-456f-8098-e54ce519e440.png)
 
