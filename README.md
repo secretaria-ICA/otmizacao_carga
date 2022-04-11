@@ -123,20 +123,19 @@ Devido a geração e validação dos indivíduos de cada população ser realiza
 
 #### 3.1 Configuração do Solver
 
-- Células Variáveis: $B$2:$U$10
+##### Células Variáveis: $B$2:$U$10
 
 Cromossomos que compões cada indivíduo gerado da população.
 
-- Restrições: 
+##### Restrições: 
 
 As restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
 
-  ##### $B$2:$U$10 = binário
-  ##### $V$11 = 1 -> Restrição de obrigatoriedade de carga
-  ##### $V$38 = 1 -> Restrição Total de limite de fila
-  ##### $V$52 = 1 -> Restricao Blocos Contíguos
-  ##### $W$38 = 1 -> Restrição SOMA Cromossomo
-
+  - $B$2:$U$10 = binário
+  - $V$11 = 1 -> Restrição de obrigatoriedade de carga
+  - $V$38 = 1 -> Restrição Total de limite de fila
+  - $V$52 = 1 -> Restricao Blocos Contíguos
+  - $W$38 = 1 -> Restrição SOMA Cromossomo
 
 #### 3.2 Parâmetros para o método Evolutionary: 
 
