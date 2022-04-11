@@ -141,33 +141,33 @@ As restrições, conforme citado anteriormente, tiveram complexidade das funçõ
 
 Os seguintes parêmetros forma considerados para configuração do método de otimização.
 
-- Convergência:\
+##### Convergência:\
 
- Determina a diferença máxima para os melhores membros da população, valores menores fazem com que mais indivíduos sejam testados. Neste caso tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
+Determina a diferença máxima para os melhores membros da população, valores menores fazem com que mais indivíduos sejam testados. Neste caso tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
    
-- Taxa de Mutação:\
+##### Taxa de Mutação:\
 
-  Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1.
+Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1.
       
-- Tamanho da População:\
+##### Tamanho da População:\
 
-  Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
+Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
       
-- Tempo Máximo sem aperfeiçoamento:\
+##### Tempo Máximo sem aperfeiçoamento:\
 
-  Este parâmetro indica o tempo máximo em segundos sem melhoria significativa nos indivíduos da população.
+Este parâmetro indica o tempo máximo em segundos sem melhoria significativa nos indivíduos da população.
     
- #### 3.3 Cenários e Resultados
+#### 3.3 Cenários e Resultados
  
- O arquivo a seguir apresenta os valores de cada parâmetro utilizado nos cenários testados: 
+O arquivo a seguir apresenta os valores de cada parâmetro utilizado nos cenários testados: 
   
- [TCC_codificacao_parametros_evolutionary.docx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8466670/TCC_codificacao_parametros_evolutionary.docx)
+[TCC_codificacao_parametros_evolutionary.docx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8466670/TCC_codificacao_parametros_evolutionary.docx)
  
- Alguns cenários foram testados utilizando o modelo, alterando basicamente os parâmetros do método utilizado. 
+Alguns cenários foram testados utilizando o modelo, alterando basicamente os parâmetros do método utilizado. 
  
- A descrição de cada cenário e seus respectivos resultados são demonstrados a seguir: 
+A descrição de cada cenário e seus respectivos resultados são demonstrados a seguir: 
 
-  #### Cenário 1 
+#### Cenário 1 
   
 No primeiro cenário testado o objetivo foi tentar enconrar o mais próximo possível do ótimo global, independente do tempo de iteração do algorítimo.\
 Neste cenário foi utilizado um valor muito baixo para a taxa de convergência e uma taxa de mutação próxima de 1. Esta faixa de valores apesar de aumentar teoricamente o tempo de execução, testam um maior número de indivíduos e possui maior potencial de alcançar o valor ótimo. 
