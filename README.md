@@ -131,11 +131,11 @@ Cromossomos que compões cada indivíduo gerado da população.
 
 As restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
 
-  -- $B$2:$U$10 = binário
-  -- $V$11 = 1 -> Restrição de obrigatoriedade de carga
-  -- $V$38 = 1 -> Restrição Total de limite de fila
-  -- $V$52 = 1 -> Restricao Blocos Contíguos
-  -- $W$38 = 1 -> Restrição SOMA Cromossomo
+  ##### $B$2:$U$10 = binário
+  ##### $V$11 = 1 -> Restrição de obrigatoriedade de carga
+  ##### $V$38 = 1 -> Restrição Total de limite de fila
+  ##### $V$52 = 1 -> Restricao Blocos Contíguos
+  ##### $W$38 = 1 -> Restrição SOMA Cromossomo
 
 
 #### 3.2 Parâmetros para o método Evolutionary: 
@@ -143,15 +143,19 @@ As restrições, conforme citado anteriormente, tiveram complexidade das funçõ
 Os seguintes parêmetros forma considerados para configuração do método de otimização.
 
 - Convergência:\
+
  Determina a diferença máxima para os melhores membros da população, valores menores fazem com que mais indivíduos sejam testados. Neste caso tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
    
 - Taxa de Mutação:\
+
   Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1.
       
 - Tamanho da População:\
+
   Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
       
 - Tempo Máximo sem aperfeiçoamento:\
+
   Este parâmetro indica o tempo máximo em segundos sem melhoria significativa nos indivíduos da população.
     
  #### 3.3 Cenários e Resultados
