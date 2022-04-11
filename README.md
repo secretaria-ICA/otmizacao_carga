@@ -129,16 +129,13 @@ Cromossomos que compões cada indivíduo gerado da população.
 
 - Restrições: 
 
-A primeira restrição define que cada cromossomo pode apenas assumir valores binários, que por sua vez referenciam a matriz de consumo de recursos por tempo: 
+As restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
 
-  - $B$2:$U$10 = binário
-
-As demais restrições, conforme citado anteriormente, tiveram complexidade das funções modeladas através de fórmulas e matrizes no Excel, de forma que ficasse a cargo do Solver um teste lógico simples de Verdadeiro ou Falso para cada restrição.
-
-  - $V$11 = 1 -> Restrição de obrigatoriedade de carga
-  - $V$38 = 1 -> Restrição Total de limite de fila
-  - $V$52 = 1 -> Restricao Blocos Contíguos
-  - $W$38 = 1 -> Restrição SOMA Cromossomo
+  -- $B$2:$U$10 = binário
+  -- $V$11 = 1 -> Restrição de obrigatoriedade de carga
+  -- $V$38 = 1 -> Restrição Total de limite de fila
+  -- $V$52 = 1 -> Restricao Blocos Contíguos
+  -- $W$38 = 1 -> Restrição SOMA Cromossomo
 
 
 #### 3.2 Parâmetros para o método Evolutionary: 
@@ -146,10 +143,10 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
 Os seguintes parêmetros forma considerados para configuração do método de otimização.
 
 - Convergência:\
-  Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
+ Determina a diferença máxima para os melhores membros da população, valores menores fazem com que mais indivíduos sejam testados. Neste caso tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
    
 - Taxa de Mutação:\
-  Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1, como o objetivo é chegar o mais próximo possível do ótimo global foi atribuído um valor mais próximo de 1, mesmo que isso aumente o tempo total de execução.
+  Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1.
       
 - Tamanho da População:\
   Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
@@ -162,11 +159,15 @@ Os seguintes parêmetros forma considerados para configuração do método de ot
  O arquivo a seguir apresenta os valores de cada parâmetro utilizado nos cenários testados: 
   
  [TCC_codificacao_parametros_evolutionary.docx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8466670/TCC_codificacao_parametros_evolutionary.docx)
+ 
+ Alguns cenários foram testados utilizando o modelo, alterando basicamente os parâmetros do método utilizado. 
+ 
+ A descrição de cada cenário e seus respectivos resultados são demonstrados a seguir: 
 
   #### Cenário 1 
   
 No primeiro cenário testado o objetivo foi tentar enconrar o mais próximo possível do ótimo global, independente do tempo de iteração do algorítimo.\
-Para isso foram utilizados parâmetros mais extremos, podendo destacar o parâmetro de Convergência do método. 
+Neste cenário foi utilizado um valor muito baixo para a taxa de convergência e uma taxa de mutação próxima de 1. Esta faixa de valores apesar de aumentar teoricamente o tempo de execução, testam um maior número de indivíduos e possui maior potencial de alcançar o valor ótimo. 
 
 Também visando alcançar valores mais próximos ao ótimo global o cenário 1 foi iniciado com um indivíduo válido da população, de forma que as próximas gerações tendam a possuir indivíduos candidatos com maior potencial.  
 
