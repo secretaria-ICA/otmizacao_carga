@@ -143,32 +143,32 @@ As demais restrições, conforme citado anteriormente, tiveram complexidade das 
 
 #### 3.2 Parâmetros para o método Evolutionary: 
 
+Os seguintes parêmetros forma considerados para configuração do método de otimização.
+
 - Convergência:\
   Como o objetivo deste trabalho é encontrar o mais próximo possível do valor ótimo foi definido um valor baixo para este parâmetro. Com isso o Solver utiliza uma diferença máxima bem pequena para os melhores membros da população, fazendo com que mais indivíduos sejam testados. O tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
-  
-  Valor utilizado: 0,000001
-    
+   
 - Taxa de Mutação:\
   Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1, como o objetivo é chegar o mais próximo possível do ótimo global foi atribuído um valor mais próximo de 1, mesmo que isso aumente o tempo total de execução.
-  
-  Valor utilizado: 0,75
-    
+      
 - Tamanho da População:\
   Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
-  
-  Valor utilizado: 10000
-    
+      
 - Tempo Máximo sem aperfeiçoamento:\
   Este parâmetro indica o tempo máximo em segundos sem melhoria significativa nos indivíduos da população.
-  
-  Valor utilizado: 1000
-  
-  
+    
  #### 3.3 Cenários e Resultados
  
- #### Cenário 1 
+ O arquivo a seguir apresenta os valores de cada parâmetro utilizado nos cenários testados: 
+  
+ [TCC_codificacao_parametros_evolutionary.docx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8466670/TCC_codificacao_parametros_evolutionary.docx)
 
-O primeiro cenário foi iniciado com um indivíduo válido da população e com as configurações citadas acima. 
+  #### Cenário 1 
+  
+No primeiro cenário testado o objetivo foi tentar enconrar o mais próximo possível do ótimo global, independente do tempo de iteração do algorítimo.\
+Para isso foram utilizados parâmetros mais extremos, podendo destacar o parâmetro de Convergência do método. 
+
+Também visando alcançar valores mais próximos ao ótimo global o cenário 1 foi iniciado com um indivíduo válido da população, de forma que as próximas gerações tendam a possuir indivíduos candidatos com maior potencial.  
 
 - Ponto de partida:[Cenario1_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351768/Cenario1_sem_Otimizacao.xlsx)\
 Valor da Função Objetivo: 550\
@@ -199,7 +199,7 @@ Após este ponto não aconteceu otimização do modelo.
 Como o tempo de máquina foi muito alto na primeira parametriação do algorítimo, no cenário 2 foi realizada configuração do Solver de forma a tentar diminuir o tempo total, e entao verificar o quanto isso interfere no resultado da otimização em relação ao primeiro cenário.
 O mesmo indivíduo de entrada foi utilizado para o processo.
 
-Apenas o parâmetro de converência foi alterado passando de iniciais 0,000001 para 0,01. O incremento como citado tem a intenção de tentar dimunuir o tempo necessário de otimização. 
+Apenas o parâmetro de convergência foi alterado passando de iniciais 0,000001 para 0,01. O incremento como citado tem a intenção de tentar dimunuir o tempo necessário de otimização. 
 
 A primeira observação foi que o tempo de otimização não alterou sigficativamente, tendo média de aproximadamente 20 minutos para cada interação. 
 
