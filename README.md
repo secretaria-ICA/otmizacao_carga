@@ -161,7 +161,7 @@ Este parâmetro indica o tempo máximo em segundos sem melhoria significativa no
  
 O arquivo a seguir apresenta os valores de cada parâmetro utilizado nos cenários testados: 
   
-[TCC_codificacao_parametros_evolutionary.docx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8466670/TCC_codificacao_parametros_evolutionary.docx)
+[TCC_codificacao_parametros_evolutionary.docx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524814/TCC_codificacao_parametros_evolutionary.docx)
  
 Alguns cenários foram testados utilizando o modelo, alterando basicamente os parâmetros do método utilizado. 
  
@@ -255,6 +255,7 @@ Horário de Finalização de todas as cargas: 03:30.
 
 No cenário 3 os mesmos parâmetros do Solver no cenário 1 foram utilizados, porém a otimização foi iniciada utilizando um indivíduo não válido da população.
 Foram alterados por meio de mutação apenas 5 cromossomos dos 180 do modelo, isso fez com que duas restições não fossem respeitadas (Restrição de janela de carga e Restrição de limite de fila).
+Após a primeira iteração observou-se que não houve otimização do modelo e o processo foi interrompido após o limite configurado de 1000 segundos.
 
 - Ponto de partida: [Cenario3_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524586/Cenario3_sem_Otimizacao.xlsx)\
 Valor da Função Objetivo: 585\
@@ -264,11 +265,10 @@ Horário de Finalização de todas as cargas: 04:45
 Valor da Função Objetivo: 585\
 Horário de Finalização de todas as cargas: 04:45.
 
+#### Cenário 4
 
-#### Cenário 3
-
-No cenário 3 os mesmos parâmetros do Solver no cenário 1 foram utilizados, porém a otimização foi iniciada utilizando um indivíduo não válido da população.
-Foram alterados por meio de mutação apenas 5 cromossomos dos 180 do modelo, isso fez com que duas restições não fossem respeitadas (Restrição de janela de carga e Restrição de limite de fila).
+Como não houve otimização no cenário 3, o cenário 4 foi tentado realizando alterações sigificativas nos parâmetros do Solver de modo que mais indivíduos fossem testados e a diferença relativa entre os indivídos válidos e não válidos fosse maior. Ao aumentar a taxa de mutação, espaçando os indivíduos espera-se encontrar indivíduos válidos de forma mais fácil a partir de um não válido de entrada. 
+Porém ao rodar o modelo o mesmo comportamento do cenário 3 foi observado e não houve otimização do modelo dentro do limte de tempo configurado de 1000 segundos.
 
 - Ponto de partida: [Cenario4_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524675/Cenario4_sem_Otimizacao.xlsx)\
 Valor da Função Objetivo: 585\
