@@ -141,19 +141,19 @@ As restrições, conforme citado anteriormente, tiveram complexidade das funçõ
 
 Os seguintes parêmetros forma considerados para configuração do método de otimização.
 
-##### Convergência:\
+##### Convergência:
 
 Determina a diferença máxima para os melhores membros da população, valores menores fazem com que mais indivíduos sejam testados. Neste caso tempo de execução aumementa mas a solução atinge valores mais próximo do ótimo global. 
    
-##### Taxa de Mutação:\
+##### Taxa de Mutação:
 
 Esta popriedade determina a frequência relativa de mutação dos indivíduos, é determinada por valores entre 0 e 1.
       
-##### Tamanho da População:\
+##### Tamanho da População:
 
 Define o número de pontos (variáveis) que compõe uma solução candidata, como existe a limitação de 200 variáveis para o Solver, foi utilizado para este trabalho o valor 180.
       
-##### Tempo Máximo sem aperfeiçoamento:\
+##### Tempo Máximo sem aperfeiçoamento:
 
 Este parâmetro indica o tempo máximo em segundos sem melhoria significativa nos indivíduos da população.
     
@@ -250,6 +250,35 @@ Valor da Função Objetivo: 385\
 Horário de Finalização de todas as cargas: 03:30.
 
 ![image](https://user-images.githubusercontent.com/66565707/160002021-f3f675b9-0d51-456f-8098-e54ce519e440.png)
+
+#### Cenário 3
+
+No cenário 3 os mesmos parâmetros do Solver no cenário 1 foram utilizados, porém a otimização foi iniciada utilizando um indivíduo não válido da população.
+Foram alterados por meio de mutação apenas 5 cromossomos dos 180 do modelo, isso fez com que duas restições não fossem respeitadas (Restrição de janela de carga e Restrição de limite de fila).
+
+- Ponto de partida: [Cenario3_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524586/Cenario3_sem_Otimizacao.xlsx)
+
+Valor da Função Objetivo: 585\
+Horário de Finalização de todas as cargas: 04:45
+
+- Interação 1: [Cenario3 - Iteracao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524667/Cenario3.-.Iteracao.1.xlsx)\
+Valor da Função Objetivo: 585\
+Horário de Finalização de todas as cargas: 04:45.
+
+
+#### Cenário 3
+
+No cenário 3 os mesmos parâmetros do Solver no cenário 1 foram utilizados, porém a otimização foi iniciada utilizando um indivíduo não válido da população.
+Foram alterados por meio de mutação apenas 5 cromossomos dos 180 do modelo, isso fez com que duas restições não fossem respeitadas (Restrição de janela de carga e Restrição de limite de fila).
+
+- Ponto de partida: [Cenario4_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524675/Cenario4_sem_Otimizacao.xlsx)\
+Valor da Função Objetivo: 585\
+Horário de Finalização de todas as cargas: 04:45
+
+- Interação 1:[Cenario4 - Iteracao 1 - sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524679/Cenario4.-.Iteracao.1.-.sem_Otimizacao.xlsx)\
+Valor da Função Objetivo: 585\
+Horário de Finalização de todas as cargas: 04:45.
+
 
 ### 4. Conclusões
 
