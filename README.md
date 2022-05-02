@@ -282,11 +282,11 @@ Horário de Finalização de todas as cargas: 04:45.
 ### 4. Conclusões
 
 Conforme citado, no cenário 1 o objetivo foi alcançar o melhor valor para função objetivo independente do tempo e esforço para isso. Nota-se que neste caso ao configurar parâmtros mais extremos para o método Evolutionary o algoritimo se comportou bem, consiguindo uma boa taxa de minimização com apenas uma iteração.
-Mesmo o tempo não sendo um fator primordial neste cenário o limite de 1000 segundos foi aplicado, fazendo com que o ótimo global não fosse atingido com apenas uma iteração.
-Ainda no cenário 1 nota-se que ao inicar o método contendo um indivíduo valido mais forte, resultado da iteração anterior, a otimização atinge resultados ainda melhores, sem aumetar de forma considerável fatores de tempo e recurso computacional. 
-No cenário 2 com uma taxa de convergência maior, o que espaçava mais os indivíduos, a otimização ocorreu de forma mais lenta, sendo necessária maior número de interações para alcançar valores melhores. 
-Nos cenários 3 e 4 a tentativa foi de iniciar o método utilizando indivíduos mais fracos da população, que não respeitasse uma ou mais restrições do modelo e obeservar com isso o quanto esse comportamento iria interferir. Neste caso observou-se que o modelo não alcançou nível de melhoria dentro do limite de tempo, além de ter utilizado maior recurso de processamento. 
-Observando o comportamento do cenário 1 e principalmente dos cenários 3 e 4 conclui-se que a inicialização do modelo com indivíduos mais aptos na população interfere de forma significativa o desempenho e o resultado final do método de evolução escolhido. 
+Mesmo o tempo não sendo um fator primordial neste cenário o limite de 1000 segundos foi aplicado, fazendo com que o ótimo global não fosse atingido com apenas uma iteração.\
+Ainda no cenário 1 nota-se que ao inicar o método contendo um indivíduo valido mais forte, resultado da iteração anterior, a otimização atinge resultados ainda melhores, sem aumetar de forma considerável fatores de tempo e recurso computacional. \
+No cenário 2 com uma taxa de convergência maior, o que espaçava mais os indivíduos, a otimização ocorreu de forma mais lenta, sendo necessária maior número de interações para alcançar valores melhores. \
+Nos cenários 3 e 4 a tentativa foi de iniciar o método utilizando indivíduos mais fracos da população, que não respeitasse uma ou mais restrições do modelo e obeservar com isso o quanto esse comportamento iria interferir. Neste caso observou-se que o modelo não alcançou nível de melhoria dentro do limite de tempo, além de ter utilizado maior recurso de processamento. \
+Observando o comportamento do cenário 1 e principalmente dos cenários 3 e 4 conclui-se que a inicialização do modelo com indivíduos mais aptos na população interfere de forma significativa o desempenho e o resultado final do método de evolução escolhido. \
 Este trabalho foi limitado em quantitativo de variáveis devido a limitações do Excel, sendo vislumbrado como trabalho futuro implementação do modelo em Python com processamento em Spark, aumentando desta forma o escopo da otimização. 
 
 
