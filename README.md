@@ -6,8 +6,8 @@ Trabalho de Conclusão de Curso de Pós Graduação PUC-Rio - BI Master
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-- [Link para o código](https://github.com/link_do_repositorio).
-- [Link para a monografia](https://link_da_monografia.com). 
+- [Link para o código](https://github.com/AndreLuisMaravilha/tcc_bimaster).
+- [Link para a monografia]https://github.com/AndreLuisMaravilha/tcc_bimaster). 
 
 ### Resumo
 
