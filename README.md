@@ -296,6 +296,7 @@ Utilizando um indivíduo menos apto, mesmo com uma taxa alta de mutação, não 
 
 Este trabalho foi limitado em quantidade de variáveis devido a limitações do Excel, sendo vislumbrado como trabalho futuro implementação do modelo em Python com processamento em Spark, aumentando desta forma o escopo da otimização. 
 
+---
 
 Matrícula: 192110171
 
