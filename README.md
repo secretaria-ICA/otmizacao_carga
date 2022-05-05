@@ -1,4 +1,4 @@
-# tcc_bimaster
+# Otimização de agendamento de cargas de grandes volumes em ambientes de BIGDATA
 Trabalho de Conclusão de Curso de Pós Graduação PUC-Rio - BI Master
 
 #### Aluno: [André Luís Maravilha Franco da Silva](https://github.com/AndreLuisMaravilha)
