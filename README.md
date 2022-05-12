@@ -169,32 +169,30 @@ A descrição de cada cenário e seus respectivos resultados são demonstrados a
 
 #### Cenário 1 
   
-No primeiro cenário testado o objetivo foi tentar encontrar o mais próximo possível do ótimo global, independente do tempo de iteração do algoritmo.\
+No primeiro cenário testado o objetivo foi tentar encontrar o mais próximo possível do ótimo global, independente do tempo de iteração do algoritmo.  
 Neste cenário foi utilizado um valor muito baixo para a taxa de convergência e uma taxa de mutação próxima de 1. Esta faixa de valores apesar de aumentar teoricamente o tempo de execução, testam um maior número de indivíduos e possui maior potencial de alcançar o valor ótimo. 
 
 Também visando alcançar valores mais próximos ao ótimo global o cenário 1 foi iniciado com um indivíduo válido da população, de forma que as próximas gerações tendam a possuir indivíduos candidatos com maior potencial.  
 
-- Ponto de partida:[Cenario1_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351768/Cenario1_sem_Otimizacao.xlsx).
-Valor da Função Objetivo: 550.
-Horário de Finalização de todas as cargas: 04:30.
+- Ponto de partida:[Cenario1_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351768/Cenario1_sem_Otimizacao.xlsx)  
+Valor da Função Objetivo: 550  
+Horário de Finalização de todas as cargas: 04:30  
 
-- Iteração 1:[Cenario1 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351769/Cenario1.-.Otimizacao.1.xlsx)\
-Valor da Função Objetivo: 430\
-Horário de Finalização de todas as cargas: 04:30.
+- Iteração 1:[Cenario1 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351769/Cenario1.-.Otimizacao.1.xlsx)  
+Valor da Função Objetivo: 430  
+Horário de Finalização de todas as cargas: 04:30  
 
-- Iteração 2: [Cenario1 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351771/Cenario1.-.Otimizacao.2.xlsx)\
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03:45.
+- Iteração 2: [Cenario1 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351771/Cenario1.-.Otimizacao.2.xlsx)  
+Valor da Função Objetivo: 400  
+Horário de Finalização de todas as cargas: 03:45  
 
-- Iteração 3:[Cenario1 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351774/Cenario1.-.Otimizacao.3.xlsx)
+- Iteração 3:[Cenario1 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351774/Cenario1.-.Otimizacao.3.xlsx)  
+Valor da Função Objetivo: 375  
+Horário de Finalização de todas as cargas: 03:15  
 
-Valor da Função Objetivo: 375
-
-Horário de Finalização de todas as cargas: 03:15.
-
-- Iteração 4:[Cenario1 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351775/Cenario1.-.Otimizacao.4.xlsx)\
-Valor da Função Objetivo: 355\
-Horário de Finalização de todas as cargas: 03:15.
+- Iteração 4:[Cenario1 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351775/Cenario1.-.Otimizacao.4.xlsx)  
+Valor da Função Objetivo: 355  
+Horário de Finalização de todas as cargas: 03:15
 
 ![image](https://user-images.githubusercontent.com/66565707/160136232-432c4b09-8e31-49ce-ab35-7f56ced0fc6c.png)
 
@@ -211,45 +209,45 @@ A primeira observação foi que o tempo de otimização não alterou de forma si
 
 Os seguintes resultados foram observados após as iterações: 
 
-- Ponto de partida: [Cenario2_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351315/Cenario2_sem_Otimizacao.xlsx)\
-Valor da Função Objetivo: 550\
-Horário de Finalização de todas as cargas: 04:30
+- Ponto de partida: [Cenario2_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351315/Cenario2_sem_Otimizacao.xlsx)  
+Valor da Função Objetivo: 550  
+Horário de Finalização de todas as cargas: 04:30  
 
-- Iteração 1: [Cenario2 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351323/Cenario2.-.Otimizacao.1.xlsx)\
-Valor da Função Objetivo: 490\
-Horário de Finalização de todas as cargas: 04:30.
+- Iteração 1: [Cenario2 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351323/Cenario2.-.Otimizacao.1.xlsx)  
+Valor da Função Objetivo: 490  
+Horário de Finalização de todas as cargas: 04:30  
 
-- Iteração 2: [Cenario2 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351600/Cenario2.-.Otimizacao.2.xlsx)\
-Valor da Função Objetivo: 460\
-Horário de Finalização de todas as cargas: 04:00
+- Iteração 2: [Cenario2 - Otimizacao 2.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351600/Cenario2.-.Otimizacao.2.xlsx)  
+Valor da Função Objetivo: 460  
+Horário de Finalização de todas as cargas: 04:00  
 
-- Iteração 3: [Cenario2 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351603/Cenario2.-.Otimizacao.3.xlsx)\
-Valor da Função Objetivo: 435\
-Horário de Finalização de todas as cargas: 03:45.
+- Iteração 3: [Cenario2 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351603/Cenario2.-.Otimizacao.3.xlsx)  
+Valor da Função Objetivo: 435  
+Horário de Finalização de todas as cargas: 03:45  
 
-- Iteração 4: [Cenario2 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351605/Cenario2.-.Otimizacao.4.xlsx)\
-Valor da Função Objetivo: 430\
-Horário de Finalização de todas as cargas: 03:45.
+- Iteração 4: [Cenario2 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351605/Cenario2.-.Otimizacao.4.xlsx)  
+Valor da Função Objetivo: 430  
+Horário de Finalização de todas as cargas: 03:45  
 
-- Iteração 5: [Cenario2 - Otimizacao 5.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351619/Cenario2.-.Otimizacao.5.xlsx)\
-Valor da Função Objetivo: 425\
-Horário de Finalização de todas as cargas: 03:45.
+- Iteração 5: [Cenario2 - Otimizacao 5.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351619/Cenario2.-.Otimizacao.5.xlsx)  
+Valor da Função Objetivo: 425  
+Horário de Finalização de todas as cargas: 03:45  
 
-- Iteração 6: [Cenario2 - Otimizacao 6.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351621/Cenario2.-.Otimizacao.6.xlsx)\
-Valor da Função Objetivo: 405\
-Horário de Finalização de todas as cargas: 03:30.
+- Iteração 6: [Cenario2 - Otimizacao 6.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351621/Cenario2.-.Otimizacao.6.xlsx)  
+Valor da Função Objetivo: 405  
+Horário de Finalização de todas as cargas: 03:30  
 
-- Iteração 7: [Cenario2 - Otimizacao 7.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351626/Cenario2.-.Otimizacao.7.xlsx)\
-Valor da Função Objetivo: 400\
-Horário de Finalização de todas as cargas: 03:30.
+- Iteração 7: [Cenario2 - Otimizacao 7.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351626/Cenario2.-.Otimizacao.7.xlsx)  
+Valor da Função Objetivo: 400  
+Horário de Finalização de todas as cargas: 03:30  
 
-- Iteração 8: [Cenario2 - Otimizacao 8.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351628/Cenario2.-.Otimizacao.8.xlsx)\
-Valor da Função Objetivo: 395\
-Horário de Finalização de todas as cargas: 03:30.
+- Iteração 8: [Cenario2 - Otimizacao 8.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351628/Cenario2.-.Otimizacao.8.xlsx)  
+Valor da Função Objetivo: 395  
+Horário de Finalização de todas as cargas: 03:30  
 
-- Iteração 9: [Cenario2 - Otimizacao 9.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351629/Cenario2.-.Otimizacao.9.xlsx)\
-Valor da Função Objetivo: 385\
-Horário de Finalização de todas as cargas: 03:30.
+- Iteração 9: [Cenario2 - Otimizacao 9.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351629/Cenario2.-.Otimizacao.9.xlsx)  
+Valor da Função Objetivo: 385  
+Horário de Finalização de todas as cargas: 03:30  
 
 ![image](https://user-images.githubusercontent.com/66565707/160002021-f3f675b9-0d51-456f-8098-e54ce519e440.png)
 
@@ -259,13 +257,13 @@ No cenário 3 os mesmos parâmetros do Solver no cenário 1 foram utilizados, po
 Foram alterados por meio de mutação apenas 5 cromossomos dos 180 do modelo, isso fez com que duas restrições não fossem respeitadas (Restrição de janela de carga e Restrição de limite de fila).
 Após a primeira iteração observou-se que não houve otimização do modelo e o processo foi interrompido após o limite configurado de 1000 segundos.
 
-- Ponto de partida: [Cenario3_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524586/Cenario3_sem_Otimizacao.xlsx)\
-Valor da Função Objetivo: 585\
+- Ponto de partida: [Cenario3_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524586/Cenario3_sem_Otimizacao.xlsx)  
+Valor da Função Objetivo: 585  
 Horário de Finalização de todas as cargas: 04:45
 
-- Iteração 1: [Cenario3 - Iteracao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524667/Cenario3.-.Iteracao.1.xlsx)\
-Valor da Função Objetivo: 585\
-Horário de Finalização de todas as cargas: 04:45.
+- Iteração 1: [Cenario3 - Iteracao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8524667/Cenario3.-.Iteracao.1.xlsx)  
+Valor da Função Objetivo: 585  
+Horário de Finalização de todas as cargas: 04:45
 
 #### Cenário 4
 
