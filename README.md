@@ -174,8 +174,10 @@ Neste cenário foi utilizado um valor muito baixo para a taxa de convergência e
 
 Também visando alcançar valores mais próximos ao ótimo global o cenário 1 foi iniciado com um indivíduo válido da população, de forma que as próximas gerações tendam a possuir indivíduos candidatos com maior potencial.  
 
-- Ponto de partida:[Cenario1_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351768/Cenario1_sem_Otimizacao.xlsx)\
-Valor da Função Objetivo: 550\
+- Ponto de partida:[Cenario1_sem_Otimizacao.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351768/Cenario1_sem_Otimizacao.xlsx)
+
+Valor da Função Objetivo: 550
+
 Horário de Finalização de todas as cargas: 04:30
 
 - Iteração 1:[Cenario1 - Otimizacao 1.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351769/Cenario1.-.Otimizacao.1.xlsx)\
@@ -186,8 +188,10 @@ Horário de Finalização de todas as cargas: 04:30.
 Valor da Função Objetivo: 400\
 Horário de Finalização de todas as cargas: 03:45.
 
-- Iteração 3:[Cenario1 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351774/Cenario1.-.Otimizacao.3.xlsx)\
-Valor da Função Objetivo: 375\
+- Iteração 3:[Cenario1 - Otimizacao 3.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351774/Cenario1.-.Otimizacao.3.xlsx)
+
+Valor da Função Objetivo: 375
+
 Horário de Finalização de todas as cargas: 03:15.
 
 - Iteração 4:[Cenario1 - Otimizacao 4.xlsx](https://github.com/AndreLuisMaravilha/tcc_bimaster/files/8351775/Cenario1.-.Otimizacao.4.xlsx)\
